@@ -1,0 +1,101 @@
+10/13/23, 4:35 PM Chatbot_2 - Jupyter Notebook
+
+In[]: from nltk.chat.util import Chat, reflections
+
+pairs =
+
+[
+"my name is (.*)",
+["Hello %1, How are you today ?",]
+
+1
+
+[
+r"what is your name ?",
+["My name is RSCOE and I'm a chatbot ?",]
+
+>
+
+[
+r"how are you ?",
+["I'm doing good\nHow about You ?",]
+
+>
+
+[
+"sorry (*)",
+["Its alright","Its OK, never mind",]
+1
+[
+"i'm (.¥) doing good",
+["Nice to hear that"," Alright :)",]
+1
+[
+r"hilheylhello",
+["Hello", "Hey there",]
+1
+[
+
+"(.*) age?",
+
+["I'm a computer program dude\nSeriously you are asking me this?",]
+
+r"what (.*) want ?",
+["Make me an offer I can't refuse”, ]
+
+1"(.¥) created 7",
+
+["Nagesh created me using Python's NLTK library ","top secret ;)",]
+
+r"(-¥) (locationcity) ?",
+['Chennai, Tamil Nadu',]
+
+"how is weather in (.*)?",
+
+["Weather in %1 is awesome like always","Too hot man here in %1","Too cold man here in %1","N
+
+"i work in (.*)?",
+
+["%] is an Amazing company, I have heard about it. But they are in huge loss these days.",]
+
+1
+1
+
+def BOT():
+
+print("Hi, I'm ChattyBOT and I chat alot ;)\nPlease type lowercase English language to start a convers
+
+chat = Chat(pairs, reflections)
+chat.converse()
+
+localhost:8888/notebooks/Desktop/BTECH/TY(COMP)/Al/Chatbot_2.ipynb
+
+3/4
+10/13/23, 4:35 PM Chatbot_2 - Jupyter Notebook
+
+if name =" main
+BOT()
+
+Hi, I'm ChattyBOT and I chat alot ;)
+Please type lowercase English language to start a conversation. Type quit to leave
+
+Hello
+
+rscoe is an Amazing company, I have heard about it. But they are in huge loss these days.
+
+None
+
+Never even heard about pune now?
+
+None
+
+reflections = { "i am" : "you are", "i was" : "you were", "i" : "you", "i'm" : "you are", "I'd" : "you
+would", "i've" : "you have", "ill" : "you will", "my" : "your", "you are" : "| am", "you were" : "|
+was", "you've" : "I have", "you'll" : "l will", "your" : "my", "yours" : "mine", "you" : "me", "me" :
+"you" }
+
+my_dummy_reflections= { "go" : "gone", "hello" : "hey there" }link text (https://}
+
+Inf]:
+
+localhost:8888/notebooks/Desktop/BTECH/TY(COMP)/Al/Chatbot_2.ipynb 4/4
